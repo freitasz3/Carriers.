@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+#container-cotar-1{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Montserrat;
+}
+#formulario-cotar-1{
+    height: 80vh;
+    width: 60%;
+    background-color: white;
+    box-shadow: 0px 4px 57px 6px #00000040;
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.campos-cotar-1{
+    height: 10vh;
+    width: 40vw;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    color: black;
+    font-weight: 600;
+    padding-top: 30px;
+    
+    display: flex;
+    flex-direction: column;
+
+    font-family: Montserrat;
+}
